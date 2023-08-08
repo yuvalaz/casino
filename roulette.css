@@ -1,6 +1,10 @@
 body{
     overflow-x: hidden;
 }
+#poker{
+    border-bottom: 2px solid   rgb(211, 213, 8);
+ 
+}
 #rouletteDiv{
     width: 60vh;
     height: 60vh;
@@ -71,7 +75,10 @@ body{
     width: 20vh;
     height: 20vh; 
     }
+    93%{
+        transform: rotate(1005deg);
 
+    }
 
 100%{
     transform: rotate(1000deg);
