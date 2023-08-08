@@ -206,20 +206,20 @@
 
 #card1{
    
-    animation: card 1 2s  1 forwards 1s linear;
+    animation: card1 2s  1 forwards 1s linear;
     
 
 }
 #card2{
     
-    animation: card 2 2s  1 forwards 1s linear;
+    animation: card2 2s  1 forwards 1s linear;
     
 
 }
 
 #card3{
     
-    animation: card 3 2s  1 forwards 1s linear;
+    animation: card3 2s  1 forwards 1s linear;
     
    
 

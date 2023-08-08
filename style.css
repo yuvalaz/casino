@@ -28,6 +28,7 @@ body{
     background-color: rgb(163, 37, 37);
     border-bottom: 1px solid rgb(211, 213, 8);
     display: grid;
+    z-index: 5;
     grid-template-columns: 80% 20%;
     grid-template-rows: 80% 20%;
     grid-template-areas: 
@@ -187,20 +188,20 @@ body{
 
 #card1{
    
-    animation: card 1 2s  1 forwards 1s linear;
+    animation: card1 2s  1 forwards 1s linear;
     
 
 }
 #card2{
     
-    animation: card 2 2s  1 forwards 1s linear;
+    animation: card2 2s  1 forwards 1s linear;
 
 
 }
 
 #card3{
     
-    animation: card 3 2s  1 forwards 1s linear;
+    animation: card3 2s  1 forwards 1s linear;
     
 
 

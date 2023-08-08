@@ -1,0 +1,112 @@
+body{
+    overflow-x: hidden;
+}
+#poker{
+    border-bottom: 2px solid   rgb(211, 213, 8);
+ 
+}
+#rouletteDiv{
+    width: 60vh;
+    height: 60vh;
+
+    position: relative;
+    left: 10%;
+    top: 10%;
+    animation: roulette 60s  1 1s forwards linear ;
+}
+
+#roulette{
+    width: 60vh;
+    position: relative;
+    animation: roule tte 24s  1 1s forwards ;
+    
+}
+
+@keyframes roulette {
+
+    0% {
+        transform: rotate(0deg)
+    }
+    
+   
+    
+    100%{
+        transform: rotate(6120deg)
+        }
+
+}
+#ball{
+    width: 2vh;
+    position: relative;
+    box-shadow: 15px 15px 50px black;
+    
+
+}
+#balldiv{
+    position: absolute;
+    top: 9vh;
+    left: 9vh;
+    width: 42vh;
+    height: 42vh; ; 
+    animation: ballroulette 23s  1 1s forwards ;
+    
+}
+@keyframes ballroulette {
+
+    0% {
+        transform: rotate(12000deg);
+        top: 9vh;
+        left: 9vh;
+        width: 42vh;
+        height: 42vh; ;
+    }
+
+    
+    75% {
+        top: 9vh;
+        left: 9vh;
+        width: 42vh;
+        height: 42vh; ;
+    }
+
+    80%{
+        top: 20vh;
+    left: 20vh;
+    width: 20vh;
+    height: 20vh; 
+    }
+    93%{
+        transform: rotate(1005deg);
+
+    }
+
+100%{
+    transform: rotate(1000deg);
+    top: 16vh;
+    left: 16vh;
+    width: 28vh;
+    height: 28vh;
+}
+}
+
+
+#blackhole{
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    width: 9vw;
+    height: 1vh;
+    background-color: rgb(0, 0, 0);
+    border: 2vh solid rgb(47, 21, 21);
+}
+#cash{
+    width: 12.8vh;
+    height: 5.4vh;
+    position: absolute;
+    rotate: 90deg;
+    left: 70vw;
+}
+#dollar{
+    width: 100%;
+    height: 100%;
+}
